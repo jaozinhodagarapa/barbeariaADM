@@ -24,7 +24,7 @@ class UpdatePagamentoFormRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'nome'=>'max:120|min:10',
+            'nome'=>'max:120|min:10|unique:pagamentos,nome',
             'taxa'=>'min:2|max:4',
             'status'=>'max:15|min:5',
         ];
@@ -38,6 +38,7 @@ class UpdatePagamentoFormRequest extends FormRequest
     public function messages(){
         return [
             'nome.max' => 'Nome deve conter no máximo 120 caracteres',
+            'nome.unique' => 'Nome ja cadastrado',
             'nome.min' => 'Nome deve conter no mínimo 10 caracteres',
             'taxa.max' => 'Taxa deve conter no máximo 3 caracteres',
             'taxa.min' => 'Taxa deve conter no mínimo 2 caracteres',
