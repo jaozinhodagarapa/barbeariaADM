@@ -20,7 +20,7 @@ A transparência é fundamental para nós na Barbearia LB. É por isso que ofere
 Na Barbearia LB, nossa missão é ajudá-lo a parecer e sentir-se no seu melhor. Não somos apenas uma barbearia; somos uma experiência de estilo e bem-estar. Convidamos você a explorar todas as nossas páginas e serviços para descobrir como podemos atender às suas necessidades de estilo e cuidados pessoais. Esperamos recebê-lo em breve na Barbearia LB, onde a excelência é o nosso compromisso diário.
 
 
-# Repositorio de barbearialb com PHP e Laravel
+# Repositorio de barbeariaADM com PHP e Laravel
 
 Barbearia ADM - Serviços
 
