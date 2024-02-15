@@ -36,7 +36,7 @@ class AdministradorFormRequest extends FormRequest
             'error' => $validator->errors()
         ]));
     }
-    public function messages(){
+    public function messages(){ 
         return [
             'nome.required' => 'Nome obrigatório',
             'nome.max' => 'Nome deve conter no máximo 120 caracteres',
